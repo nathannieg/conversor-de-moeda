@@ -6,9 +6,9 @@ Durante a aula, utilizamos JavaScript para converter valores de dólar para real
 
 Ao final, os instrutores deixaram o desafio de customizar a página da maneira como cada um quisesse e adicionar mais uma moeda para conversão.
 
-[Clique para acessar a minha versão do conversor]().
+[Clique para acessar a minha versão do conversor](https://nathannieg.github.io/conversor-de-moeda/).
 
-\*Ao clicar no link acima, dar refresh na página se aparecer um erro.
+\*Ao clicar no link acima, dar refresh na página em caso de erro.
 
 ## Índice
 
