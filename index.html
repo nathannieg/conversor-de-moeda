@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moeda | Imersão Dev Alura 2021</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra os valores em Dólar e Euro
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+      <div class="card-container">
+        <div class="value-real">
+          <label for="value-real">Insira um valor em BRL</label><br>
+          <input type="number" id="valor"/><br>
+          <button class="button" type="submit" onclick="Converter()">Converter</button>
+        </div>
+        <div class="converted-values">
+          <div class="dolar">
+            <p></p>
+            <p id="value-dolar">USD</p>
+          </div>
+          <div class="euro">
+            <p></p>
+            <p id="value-euro">EUR</p>
+          </div>
+        </div>
+        
+      </div>
+      <div contentinfo="attribution" class="attribution">
+        Coded by
+        <a href="https://github.com/nathannieg" target="_blank" class="github"
+          >Nathannie Gomes</a
+        >.
+      </div>
+<!--       <label for="moeda">Insira o valor</label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="Converter()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+    </div> -->
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <script src="script.js"></script>
+  </body>
+</html>
